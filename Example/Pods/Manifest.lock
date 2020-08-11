@@ -1,0 +1,16 @@
+PODS:
+  - WKURLSchemeHandlerDemo (0.1.0)
+
+DEPENDENCIES:
+  - WKURLSchemeHandlerDemo (from `../`)
+
+EXTERNAL SOURCES:
+  WKURLSchemeHandlerDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WKURLSchemeHandlerDemo: f7d732ff7d1ac1994ce58e04df92d6d6b30df091
+
+PODFILE CHECKSUM: 47a6d8c3f13e19dad64917444235ccc43ff9b828
+
+COCOAPODS: 1.9.2

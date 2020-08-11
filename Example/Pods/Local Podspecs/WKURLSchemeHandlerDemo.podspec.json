@@ -1,0 +1,22 @@
+{
+  "name": "WKURLSchemeHandlerDemo",
+  "version": "0.1.0",
+  "summary": "A short description of WKURLSchemeHandlerDemo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/luming/WKURLSchemeHandlerDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "luming": "lum123456@dingtalk.com"
+  },
+  "source": {
+    "git": "https://github.com/luming/WKURLSchemeHandlerDemo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WKURLSchemeHandlerDemo/Classes/**/*"
+}

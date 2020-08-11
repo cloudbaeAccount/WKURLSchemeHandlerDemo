@@ -1,0 +1,6 @@
+framework module Pods_WKURLSchemeHandlerDemo_Tests {
+  umbrella header "Pods-WKURLSchemeHandlerDemo_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

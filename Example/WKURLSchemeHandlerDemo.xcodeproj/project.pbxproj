@@ -21,6 +21,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6149C3BB24E2876100C4C142 /* CLBURLSchemeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6149C3BA24E2876100C4C142 /* CLBURLSchemeHandler.m */; };
+		6149C3BE24E2879C00C4C142 /* CLBImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6149C3BD24E2879C00C4C142 /* CLBImagePicker.m */; };
+		6149C3C024E2889500C4C142 /* customScheme.htm in Resources */ = {isa = PBXBuildFile; fileRef = 6149C3BF24E2889400C4C142 /* customScheme.htm */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		FA29F8E81CC9E1554008E3B8 /* Pods_WKURLSchemeHandlerDemo_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8770C83E7642D7B6305B552 /* Pods_WKURLSchemeHandlerDemo_Tests.framework */; };
@@ -59,14 +62,19 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		68DB3F97BE856B129D719E27 /* WKURLSchemeHandlerDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WKURLSchemeHandlerDemo.podspec; path = ../WKURLSchemeHandlerDemo.podspec; sourceTree = "<group>"; };
+		6149C3B924E2876100C4C142 /* CLBURLSchemeHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLBURLSchemeHandler.h; sourceTree = "<group>"; };
+		6149C3BA24E2876100C4C142 /* CLBURLSchemeHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLBURLSchemeHandler.m; sourceTree = "<group>"; };
+		6149C3BC24E2879C00C4C142 /* CLBImagePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLBImagePicker.h; sourceTree = "<group>"; };
+		6149C3BD24E2879C00C4C142 /* CLBImagePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLBImagePicker.m; sourceTree = "<group>"; };
+		6149C3BF24E2889400C4C142 /* customScheme.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = customScheme.htm; sourceTree = "<group>"; };
+		68DB3F97BE856B129D719E27 /* WKURLSchemeHandlerDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WKURLSchemeHandlerDemo.podspec; path = ../WKURLSchemeHandlerDemo.podspec; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9419E260B0F1D6A7E09A435F /* Pods_WKURLSchemeHandlerDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WKURLSchemeHandlerDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B116C79C9D3EAFBB2FBC642 /* Pods-WKURLSchemeHandlerDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKURLSchemeHandlerDemo_Example.debug.xcconfig"; path = "Target Support Files/Pods-WKURLSchemeHandlerDemo_Example/Pods-WKURLSchemeHandlerDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A8770C83E7642D7B6305B552 /* Pods_WKURLSchemeHandlerDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WKURLSchemeHandlerDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E84FE6AA0C03430DC65E6F15 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		FE591F745D6D5A8BFB209F80 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E84FE6AA0C03430DC65E6F15 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FE591F745D6D5A8BFB209F80 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +145,11 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* CLBViewController.h */,
 				6003F5A6195388D20070C39A /* CLBViewController.m */,
+				6149C3B924E2876100C4C142 /* CLBURLSchemeHandler.h */,
+				6149C3BA24E2876100C4C142 /* CLBURLSchemeHandler.m */,
+				6149C3BC24E2879C00C4C142 /* CLBImagePicker.h */,
+				6149C3BD24E2879C00C4C142 /* CLBImagePicker.m */,
+				6149C3BF24E2889400C4C142 /* customScheme.htm */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,7 +206,6 @@
 				42CD916817035C4363C7C519 /* Pods-WKURLSchemeHandlerDemo_Tests.debug.xcconfig */,
 				2E225147AADF974218F18D30 /* Pods-WKURLSchemeHandlerDemo_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +270,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -280,6 +293,7 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				6149C3C024E2889500C4C142 /* customScheme.htm in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,9 +378,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6149C3BE24E2879C00C4C142 /* CLBImagePicker.m in Sources */,
 				6003F59E195388D20070C39A /* CLBAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* CLBViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				6149C3BB24E2876100C4C142 /* CLBURLSchemeHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,6 @@
+framework module WKURLSchemeHandlerDemo {
+  umbrella header "WKURLSchemeHandlerDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
